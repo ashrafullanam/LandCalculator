@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF80AB"
+    tools:context="com.example.ashraf.landcalculator.MainActivity">
+
+    <Button
+        android:id="@+id/quard"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle_veiw_button"
+        android:gravity="center"
+        android:text="quadrangle"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="96dp"
+        android:layout_above="@+id/extra"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        />
+
+    <Button
+        android:id="@+id/extra"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle_veiw_button"
+        android:gravity="center"
+        android:text="Extra"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/quard"
+        android:layout_alignStart="@+id/quard"
+        android:layout_marginBottom="59dp" />
+
+    <Button
+        android:id="@+id/triagle"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle_veiw_button"
+        android:gravity="center"
+        android:text="Triangle"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="96dp"
+        android:layout_above="@+id/quard"
+        android:layout_alignLeft="@+id/quard"
+        android:layout_alignStart="@+id/quard"
+        android:layout_marginBottom="24dp" />
+
+
+
+</RelativeLayout>
