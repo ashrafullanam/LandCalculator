@@ -43,7 +43,7 @@ public class TriangleView extends AppCompatActivity {
             }
         });
     }
-
+//Method
     private void Compute() {
 
         d1= Double.parseDouble(L1.getText().toString())+(Double.parseDouble(Inc1.getText().toString())/12);
