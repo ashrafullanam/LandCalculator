@@ -18,11 +18,21 @@ public class MainActivity extends AppCompatActivity {
         quard = (Button) findViewById(R.id.quard);
         extra = (Button) findViewById(R.id.extra);
 
+
         quard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,QuardView.class);
                 startActivity(intent);
+            }
+        });
+
+
+        triagle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(MainActivity.this,TriangleView.class);
+                startActivity(intent2);
             }
         });
 

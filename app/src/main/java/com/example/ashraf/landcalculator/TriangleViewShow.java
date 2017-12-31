@@ -4,14 +4,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class QuardViewShow extends AppCompatActivity {
+public class TriangleViewShow extends AppCompatActivity {
     private TextView squareText,percentageText,totalLandText;
     private double squareDouble,percentageDouble,totalLandDouble;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quard_view_show);
-
+        setContentView(R.layout.activity_triangle_view_show);
         squareText= (TextView) findViewById(R.id.SqueView);
         percentageText = (TextView) findViewById(R.id.percetageText);
         totalLandText = (TextView) findViewById(R.id.totalLandText);
